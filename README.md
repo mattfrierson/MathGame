@@ -2,49 +2,30 @@ MathGame class
 ======================================
 
 import java.util.*;
-
 import java.awt.*;
-
 
 
 public class MathGame
 {
-
   public static final int POINTS = 0;
-  
   public static final Scanner CONSOLE = new Scanner(System.in);
-  
   public static final Random RANDOM = new Random();
-  
   public static final int WIDTH = 600;
-  
   public static final int HEIGHT = 600;
-  
   
   
   public static void main( String[] args)
   {
-  
     System.out.println();
-    
     System.out.println("Hello! Welcome to the Math Game created by Matthew Frierson. Please enjoy!");
-    
     System.out.println();
-    
     System.out.println("Directions: There are 5 levels that contain math equations to solve.");
-    
     System.out.println("If you answer an equation correctly you get a point or lose a point if incorrect.");
-    
-    System.out.println("If your answer is not a number and it is not an integer. You will have to respond again."); 
-    
+    System.out.println("If your answer is not a number and it is not an integer you will have to respond again."); 
     System.out.println("Get four points to advance to the next level, except for level five where"); 
-    
     System.out.println("you need eight points.");
-    
     System.out.println("If on level one you get to -3 points, it will be game over and the program will end.");
-    
-    System.out.println("Careful, you might even get moved down a level. When you get to 24 points you get a surprise");
-    
+    System.out.println("Careful, you might even get moved down a level. When you get to 24 points you get a surprise.");
     System.out.println("Good Luck!!\n\n");
    
     levelOne(POINTS);
@@ -113,8 +94,8 @@ public class MathGame
     
     System.out.println("In this level, there will be subtraction equations to solve.");
     System.out.println("Do not use decimal points in your answers.");
-    System.out.println("Type the answer you think is correct in the blank and press enter to submit answer.\n\n");
-    System.out.println("To enter a negative number, press the hyphen key and then the number.");
+    System.out.println("Type the answer you think is correct in the blank and press enter to submit answer.");
+    System.out.println("To enter a negative number, press the hyphen key and then the number.\n\n");
     
     int levelTwoMax = 100;
     int levelTwoMin = 0;
@@ -220,9 +201,9 @@ public class MathGame
     
     System.out.println("In this level, there will be division equations to solve.");
     System.out.println("Do not use decimal points in your answers.");
-    System.out.println("Type the answer you think is correct in the blank and press enter to submit answer.\n\n");
+    System.out.println("Type the answer you think is correct in the blank and press enter to submit answer.");
     System.out.println("To type the correct answer, put it in whole numbers with out the remainder.");
-    System.out.println("For example: 19/5 the correct answer would be 3 without the remainder of 4.");
+    System.out.println("For example: 19/5 the correct answer would be 3 without the remainder of 4.\n\n");
     
     
     while( POINTS <= 15 && POINTS >= 12)
@@ -268,6 +249,12 @@ public class MathGame
   public static void levelFive(int POINTS)
   {
     System.out.println("\t\t LEVEL FIVE\n\n" );
+    
+    System.out.println("In this level, there will be addition, subtraction, multiplication, and division.");
+    System.out.println("So basically, a mix of the four levels you have already completed.");
+    System.out.println("Do not use decimal points in your answers.");
+    System.out.println("Type the answer you think is correct in the blank and press enter to submit answer.\n\n");
+    
     int levelFiveMax = 100;
     int levelFiveMin = 0;
     
@@ -465,7 +452,6 @@ public class MathGame
     
   }
 }
-
 
 DrawingPanel Class
 ===========================================================
