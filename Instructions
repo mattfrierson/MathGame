@@ -1,0 +1,6 @@
+In order to run this program, use a Java editor such as Dr.Java, which is what I used to make this project, or Jcreator.
+Then create a blank space for the MathGame class, by copying everything under the "========" and above where it says 
+DrawingPanel class. Then create a second blank one for the DrawingPanel class and copy paste everything under the 
+"========" on to the blank space. The file names for both the classes have to be the same as "MathGame" or "DrawingPanel".
+Then click on compile or build, whether you're using Dr.Java or Jcreator respectively or another Java editor. Then click 
+on run for the program to start.
